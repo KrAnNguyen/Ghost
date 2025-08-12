@@ -185,7 +185,7 @@ end
 
 function script()
 m = gg.choice({
-'Ghost Mode 64Bit (Đang lỗi)',
+'Ghost Mode 64Bit',
 'Ghost Mode 32Bit',
 'Exit script',
 },1,os["date"]("📆 %A | %Y - %m - %d | %H:%M\
@@ -209,13 +209,13 @@ if gg.isVisible(true) then
 gg.clearResults()
 if flag then
   flag = false
-  SetValue("libil2cpp.so", 0x33bea7c, "00 00 80 D2 C0 03 5F D6")
+  SetValue("libil2cpp.so", 0x33bd1f4, "00 00 80 D2 C0 03 5F D6")
    gg.clearResults()
     gg.setVisible(false)
     gg.toast("ON")
 elseif flag == false then
   flag = true
-  SetValue("libil2cpp.so", 0x33bea7c, "02 00 80 D2 C0 03 5F D6")
+  SetValue("libil2cpp.so", 0x33bd1f4, "02 00 80 D2 C0 03 5F D6")
    gg.clearResults()
     gg.setVisible(false)
     gg.toast("OFF")
@@ -233,13 +233,13 @@ if gg.isVisible(true) then
 gg.clearResults()
 if flag then
   flag = false
-  SetValue("libil2cpp.so",0x1f4f1cc,"0000A0E31EFF2FE1")
+  SetValue("libil2cpp.so",0x1f4d0ec,"0000A0E31EFF2FE1")
    gg.clearResults()
     gg.setVisible(false)
     gg.toast("ON")
 elseif flag == false then
   flag = true
-  SetValue("libil2cpp.so",0x1f4f1cc,"F04F2DE91CB08DE2")
+  SetValue("libil2cpp.so",0x1f4d0ec,"F04F2DE91CB08DE2")
    gg.clearResults()
     gg.setVisible(false)
     gg.toast("OFF")
