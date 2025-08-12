@@ -185,7 +185,7 @@ end
 
 function script()
 m = gg.choice({
-'Ghost Mode 64Bit',
+'Ghost Mode 64Bit (Đang lỗi)',
 'Ghost Mode 32Bit',
 'Exit script',
 },1,os["date"]("📆 %A | %Y - %m - %d | %H:%M\
