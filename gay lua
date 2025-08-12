@@ -209,13 +209,13 @@ if gg.isVisible(true) then
 gg.clearResults()
 if flag then
   flag = false
-  SetValue("libil2cpp.so", 0x354c5bc, "00 00 80 D2 C0 03 5F D6")
+  SetValue("libil2cpp.so", 0x33bea7c, "00 00 80 D2 C0 03 5F D6")
    gg.clearResults()
     gg.setVisible(false)
     gg.toast("ON")
 elseif flag == false then
   flag = true
-  SetValue("libil2cpp.so", 0x354c5bc, "02 00 80 D2 C0 03 5F D6")
+  SetValue("libil2cpp.so", 0x33bea7c, "02 00 80 D2 C0 03 5F D6")
    gg.clearResults()
     gg.setVisible(false)
     gg.toast("OFF")
